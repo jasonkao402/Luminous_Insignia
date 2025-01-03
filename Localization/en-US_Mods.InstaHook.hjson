@@ -1,0 +1,25 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	instaSword: {
+		DisplayName: insta Sword
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	InstaHook: {
+		DisplayName: Insta Hook
+		Tooltip: ""
+	}
+
+	InstaSword: {
+		DisplayName: Insta Sword
+		Tooltip: ""
+	}
+}
+
+Projectiles.InstaHookProjectile.DisplayName: Insta Hook Projectile
