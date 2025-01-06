@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 
-namespace InstaHook
+namespace Luminous_Insignia
 {
 	// Please read https://github.com/tModLoader/tModLoader/wiki/Basic-tModLoader-Modding-Guide#mod-skeleton-contents for more information about the various files in a mod.
-	public class InstaHook : Mod
+	public class Luminous_Insignia : Mod
 	{
 
 	}

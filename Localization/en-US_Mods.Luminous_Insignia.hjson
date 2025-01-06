@@ -20,6 +20,28 @@ Items: {
 		DisplayName: Insta Sword
 		Tooltip: ""
 	}
+
+	Luminous_Insignia: {
+		Tooltip: ""
+		DisplayName: Luminous_ Insignia
+	}
+
+	LuminousInsigniaItem: {
+		DisplayName: Luminous Insignia Item
+		Tooltip: ""
+	}
+
+	CritGamblePotion: {
+		DisplayName: Crit Gamble Potion
+		Tooltip: ""
+	}
 }
 
 Projectiles.InstaHookProjectile.DisplayName: Insta Hook Projectile
+
+Buffs: {
+	CritGambleBuff: {
+		DisplayName: Crit Gamble Buff
+		Description: Mods.Luminous_Insignia.Buffs.CritGambleBuff.Description
+	}
+}

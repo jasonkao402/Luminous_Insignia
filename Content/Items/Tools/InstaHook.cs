@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace InstaHook.Content.Items
+namespace Luminous_Insignia.Content.Items.Tools
 {
 	internal class InstaHook : ModItem
 	{
@@ -32,7 +32,7 @@ namespace InstaHook.Content.Items
         readonly int hooksAmount = 3;
 		public override void Load() { // This is called once on mod (re)load when this piece of content is being loaded.
 			// This is the path to the texture that we'll use for the hook's chain. Make sure to update it.
-			chainTexture = ModContent.Request<Texture2D>("InstaHook/Content/Items/InstaHookChain");
+			chainTexture = ModContent.Request<Texture2D>("Luminous_Insignia/Content/Items/Tools/InstaHookChain");
 		}
 
 		/*

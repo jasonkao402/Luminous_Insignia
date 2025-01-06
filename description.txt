@@ -1,1 +1,3 @@
-Modify this file with a description of your mod.
+Luminous Insignia
+A silly terraria mod that add various items, accessories, and weapons.
+made by jasonZzzz
