@@ -6,7 +6,7 @@ namespace Luminous_Insignia.Content.Buffs
 {
     public class CritGambleBuff : ModBuff
     {
-        public static readonly int critMultiplier = 5;
+        public static readonly float critMultiplier = 1.0f;
         // public override void SetStaticDefaults()
         // {
         //     // DisplayName.SetDefault("Gamble");
