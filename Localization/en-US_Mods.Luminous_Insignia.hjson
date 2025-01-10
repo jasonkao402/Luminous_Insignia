@@ -35,13 +35,33 @@ Items: {
 		DisplayName: Crit Gamble Potion
 		Tooltip: ""
 	}
+
+	VengeanceEmblem: {
+		DisplayName: Vengeance Emblem
+		Tooltip: ""
+	}
+
+	EntityDecompiler: {
+		DisplayName: Entity Decompiler
+		Tooltip: ""
+	}
 }
 
-Projectiles.InstaHookProjectile.DisplayName: Insta Hook Projectile
+Projectiles: {
+	InstaHookProjectile.DisplayName: Insta Hook Projectile
+	EntityDecompilerGreen.DisplayName: Entity Decompiler Green
+	EntityDecompilerRed.DisplayName: Entity Decompiler Red
+	EntityDecompilerYellow.DisplayName: Entity Decompiler Yellow
+}
 
 Buffs: {
 	CritGambleBuff: {
 		DisplayName: Crit Gamble Buff
 		Description: Mods.Luminous_Insignia.Buffs.CritGambleBuff.Description
+	}
+
+	VengeanceEmblemBuff: {
+		DisplayName: Vengeance Emblem Buff
+		Description: Mods.Luminous_Insignia.Buffs.VengeanceEmblemBuff.Description
 	}
 }
