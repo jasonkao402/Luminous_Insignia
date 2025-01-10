@@ -33,7 +33,7 @@ namespace Luminous_Insignia.Content.Items.Weapons
             Item.rare = ItemRarityID.Red;
             Item.autoReuse = true;
             Item.shoot = ModContent.ProjectileType<EntityDecompilerGreen>();
-            Item.shootSpeed = 12f;
+            Item.shootSpeed = 10f;
         }
         // public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback) {
 		// 	// Here we randomly set type to either the original (as defined by the ammo), a vanilla projectile, or a mod projectile.
@@ -65,14 +65,14 @@ namespace Luminous_Insignia.Content.Items.Weapons
                 case 1: // Yellow Beams
                     for (int i = 0; i < 5; i++)
                     {
-						Vector2 offset = new(Main.rand.Next(-20, 21), Main.rand.Next(0, 11));
-                        Vector2 direction = Vector2.Normalize(Main.MouseWorld - player.Center + offset) * Item.shootSpeed * 0.2f;
+						Vector2 offset = new(Main.rand.Next(-20, 21), Main.rand.Next(0, 21));
+                        Vector2 direction = Vector2.Normalize(Main.MouseWorld - player.Center + offset) * Item.shootSpeed * 0.25f;
                         Projectile.NewProjectile(source, player.Center + offset, direction, ModContent.ProjectileType<EntityDecompilerYellow>(), damage, knockBack, player.whoAmI);
                     }
                     break;
 
                 case 2: // Mega Fireball
-                    Projectile.NewProjectile(source, position, velocity * 0.5f, ModContent.ProjectileType<EntityDecompilerRed>(), damage, knockBack, player.whoAmI);
+                    Projectile.NewProjectile(source, position, velocity * 0.6f, ModContent.ProjectileType<EntityDecompilerRed>(), damage, knockBack, player.whoAmI);
                     break;
             }
 

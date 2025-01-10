@@ -12,9 +12,9 @@ namespace Luminous_Insignia.Content.Buffs
 
         public override void Update(Player player, ref int buffIndex)
         {
+            // Increases critical damage proportional to total HP lost, capped at 400 HP lost
             tempHealthLost = Min(player.statLifeMax2 - player.statLife, 400);
             player.GetModPlayer<DamageStatsModificationPlayer>().AdditiveCritDamageBonus += tempHealthLost * VengeanceEmblemBonus;
-            // player.GetCritChance(DamageClass.Generic) += 30;
         }
     }
 }
