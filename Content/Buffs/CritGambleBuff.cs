@@ -6,7 +6,7 @@ namespace Luminous_Insignia.Content.Buffs
 {
     public class CritGambleBuff : ModBuff
     {
-        public static readonly float critMultiplier = 0.622f;
+        public static readonly float critMultiplier = 0.3f;
         // public override void SetStaticDefaults()
         // {
         //     // DisplayName.SetDefault("Gamble");
@@ -18,7 +18,7 @@ namespace Luminous_Insignia.Content.Buffs
         public override void Update(Player player, ref int buffIndex)
         {
             player.GetModPlayer<DamageStatsModificationPlayer>().AdditiveCritDamageBonus += critMultiplier;
-            player.GetCritChance(DamageClass.Generic) += 31.1f;
+            player.GetCritChance(DamageClass.Generic) += 15.0f;
         }
     }
 }
