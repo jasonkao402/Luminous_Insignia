@@ -33,7 +33,7 @@ namespace Luminous_Insignia.Common.GlobalNPCs
 				if (npc.lifeRegen > 0) {
 					npc.lifeRegen = 0;
 				}
-				npc.lifeRegen -= 20;
+				npc.lifeRegen -= 30;
 				// if (damage < 2) {
 				// 	damage = 2;
 				// }

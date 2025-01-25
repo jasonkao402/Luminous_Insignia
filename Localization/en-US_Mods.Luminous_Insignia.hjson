@@ -22,13 +22,17 @@ Items: {
 	}
 
 	Luminous_Insignia: {
-		Tooltip: ""
 		DisplayName: Luminous_ Insignia
+		Tooltip: ""
 	}
 
 	LuminousInsigniaItem: {
-		DisplayName: Luminous Insignia Item
-		Tooltip: ""
+		DisplayName: Luminous Insignia
+		Tooltip: 
+			'''
+			Increases wing flight time by 30%
+			Increases movement and jump speed by 10% and acceleration by 1.1x
+			'''
 	}
 
 	CritGamblePotion: {
@@ -43,7 +47,22 @@ Items: {
 
 	EntityDecompiler: {
 		DisplayName: Entity Decompiler
-		Tooltip: ""
+		Tooltip: 
+			'''
+			Fires 3 types of projectiles, each with different effects.
+			Red: Pulls in enemies and deals AoE damage
+			Green: Energy pellets that track enemies
+			Yellow: Fast piercing laser beam shotgun
+			'''
+	}
+
+	MistSplitter: {
+		DisplayName: Mist Splitter
+		Tooltip: 
+			'''
+			WIP item.
+			Plans to let user dash through enemies and deal damage.
+			'''
 	}
 }
 
@@ -57,11 +76,16 @@ Projectiles: {
 Buffs: {
 	CritGambleBuff: {
 		DisplayName: Crit Gamble Buff
-		Description: Mods.Luminous_Insignia.Buffs.CritGambleBuff.Description
+		Description: Crit rate +15% and crit damage +30%
 	}
 
 	VengeanceEmblemBuff: {
 		DisplayName: Vengeance Emblem Buff
-		Description: Mods.Luminous_Insignia.Buffs.VengeanceEmblemBuff.Description
+		Description: Time to fight back! Crits will deal up to +400% damage based on missing health.
+	}
+
+	LeechSeedDebuff: {
+		DisplayName: Leech Seed Debuff
+		Description: Lowered defense and lose health over time.
 	}
 }
